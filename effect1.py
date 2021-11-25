@@ -5,7 +5,7 @@ from math import hypot
 
 # Loading Camera and Nose image and Creating mask
 cap = cv2.VideoCapture(0)
-nose_image = cv2.imread("pig_nose.png")
+nose_image = cv2.imread("image1.png")
 _, frame = cap.read()
 rows, cols, _ = frame.shape
 nose_mask = np.zeros((rows, cols), np.uint8)
